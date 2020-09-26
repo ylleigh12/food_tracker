@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	</head>
+	<body>
+		<h1>My Food Tracker</h1>
+		<div class="container">
+			<h3>{{ food.name }}</h3>
+			<table class="table table-condensed">
+				<thead>
+				  <tr>
+					<th></th>
+					<th>Amount per serving</th>
+				  </tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Calories</td>
+						<td>{{food.calories}}</td>
+					</tr>
+					<tr>
+						<td>Total Fat</td>
+						<td>{{food.total_fat}}</td>
+					</tr>
+					<tr>
+						<td>Saturated Fat</td>
+						<td>{{food.saturated_fat}}</td>
+					</tr>
+					<tr>
+						<td>Cholesterol</td>
+						<td>{{food.cholesterol}}</td>
+					</tr>
+					<tr>
+						<td>Sodium</td>
+						<td>{{food.sodium}}</td>
+					</tr>
+					<tr>
+						<td>Total Carbohydrate </td>
+						<td>{{food.total_carbohydrate}}</td>
+					</tr>
+					<tr>
+						<td>Dietary Fibre</td>
+						<td>{{food.dietary_fibre}}</td>
+					</tr>
+					<tr>
+						<td>Sugar</td>
+						<td>{{food.sugar}}</td>
+					</tr>
+					<tr>
+						<td>Protein</td>
+						<td>{{food.protein}}</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		
+	</body>
+</html>
